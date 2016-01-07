@@ -101,8 +101,8 @@ BOARD_USERDATAEXTRAIMAGE_PARTITION_NAME := 64G
 TARGET_USERIMAGES_USE_EXT4 := true
 
 # Kernel
-TARGET_KERNEL_CONFIG := bacon_defconfig
-KERNEL_DEFCONFIG := bacon_defconfig
+TARGET_KERNEL_CONFIG := radioactive_defconfig
+KERNEL_DEFCONFIG := radioactive_defconfig
 BOARD_KERNEL_CMDLINE := console=ttyHSL0,115200,n8 androidboot.hardware=bacon user_debug=31 msm_rtb.filter=0x3F ehci-hcd.park=3 androidboot.bootdevice=msm_sdcc.1
 BOARD_KERNEL_TAGS_OFFSET := 0x01e00000
 BOARD_RAMDISK_OFFSET     := 0x02000000
